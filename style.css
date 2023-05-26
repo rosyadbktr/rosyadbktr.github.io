@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+body {
+
+  text-align: center;
+
+  background-image: linear-gradient(115deg, rgba(210, 232, 35, 0.7), rgba(206, 231, 17, 0.7)),
+    url(https://i.postimg.cc/SKZZDd8c/mos-design-plp-GRO-g-V4-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  height: 100vh;
+}
+
+section {
+  padding: 75px 25px;
+}
+
+/* Profile Header */
+
+.profile-picture {
+  width: 100px;
+  border-radius: 50%;
+  border: solid 2px white;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #254F1A;
+  margin-bottom: 40px;
+}
+
+/* Content */
+
+.link {
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0px auto 15px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  max-width: 600px;
+  text-decoration: none;
+  height: 60px;
+
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(7px);
+  box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, .5);
+  border-radius: 30px;
+  color: #254F1A;
+}
+
+.link:hover {
+  box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+}
+
+.link-icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px;
+  background-color: white;
+}
+
+.share-link {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: .3s;
+
+  border-radius: 25px;
+}
+
+.share-link:hover {
+  background-color: white;
+}
+
+/* social media */
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 60px;
+  color: white;
+}
+
+.icon-hover {
+  transition-duration: .2s;
+}
+
+.icon-hover:hover {
+  transform: scale(1.2);
+}
